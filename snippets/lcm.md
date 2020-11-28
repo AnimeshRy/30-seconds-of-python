@@ -1,11 +1,11 @@
 ---
 title: lcm 
-tags: math,list,recursion,advanced 
+tags: math,list,intermediate 
 ---
 
 Returns the least common multiple of a list of numbers.
 
-Use `functools.reduce()`, `math.gcd()` and `lcm(x,y) = x * y / gcd(x,y)` over the given list.
+- Use `functools.reduce()`, `math.gcd()` and `lcm(x,y) = x * y / gcd(x,y)` over the given list.
 
 ```py
 from functools import reduce
